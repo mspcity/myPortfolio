@@ -29,6 +29,8 @@ const About = () => {
                 <Row className="align-items-start p-2 my-details rounded">
                   {/* description */}
                   Hi there
+                  <br></br>
+                  I am Young Min
                 </Row>
                 <Row>
                   {/* buttons */}
