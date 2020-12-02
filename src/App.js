@@ -13,7 +13,10 @@ import About from "./pages/about/about.component"
 import Skills from './pages/skills/skills.component'
 import Experience from './pages/experience/experience.component'
 import ProjectTimeline from './components/projects-timeline/projects-timeline.component'
-
+import Contact from './pages/contact-form/contact-form.component';
+import FooterPanel from './components/footer/footer.component';
+import Particles from "react-particles-js";
+import { particlesOptions } from "./particlesOptions";
 import './App.css';
 
 const App = () => {
@@ -22,6 +25,8 @@ const App = () => {
     <MyNavbar />
     <MyCarousal />
     <TitleMessage />
+    <Particles className="particles particles-box" params={particlesOptions} />
+        
     {/* about me section */}
     <div>
       <Parallax blur={{ min: -30, max: 30 }}
@@ -64,6 +69,20 @@ const App = () => {
           </Slide>
         </Container>
     </div>
+
+    {/* Contact */}
+    <div>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <hr />
+            <Contact />
+          </Fade>
+        </Container>
+    </div>
+
+    {/* Footer */}
+    <hr />
+    <FooterPanel />
   </div>
   );
 };
