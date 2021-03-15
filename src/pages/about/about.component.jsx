@@ -28,7 +28,7 @@ const About = () => {
             <Col xs={12} md={6}>
                 <Row className="align-items-start p-2 my-details rounded">
                   {/* description */}
-                  Hi there!! I am <strong>&nbsp;Young Min Park</strong>
+                  Hi there! I am <strong>&nbsp;Young Min Park</strong>
                   <br />I have received my B.S Degree at the University of Minnesota in 2014. I have a successful record of my academic achievments majoring Sustainable Systems Management and minoring Management at Carlson School of Management.<br />
                   <br /> I have worked in Business field for few years. But I decided to follow my passion which is Software Engineering. Recently, I have graduated Flatiron School for Software Engineering.<br />
                   <br />I am a dedicated and eager Software Engineer with a background in Marketing. Using communication skills sharpened through sales, I drive to meet the needs of both internal and external customers. I have a passion for Golf, so I’ve built both a Golf Course Finder & Golf Group Finder to support my desire to play. I want to Combine my new skills with my lifelong desire to grow in tech, I’m excited to continue to learn, grow & expand my ability to be a cohesive teammate. <br />
